@@ -56,7 +56,7 @@ btnRoll.addEventListener('click', function () {
 
     //2. Display dice Image according to dice value
     diceImg.classList.remove('hidden');
-    diceImg.src = `../images/dice-${diceValue}.png`;
+    diceImg.src = `./images/dice-${diceValue}.png`;
 
     //3. To Check if dice value is 1 or not (if true, switch to next player)
     if (diceValue !== 1) {
